@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accio Jobs</title>
+    <style>
+        .marquee {
+            overflow: hidden;
+            position: relative;
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .marquee h1 {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        img {
+            height: 200px;
+            width: auto; /* Maintains aspect ratio */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="marquee">
+        <h1>Welcome to Accio Jobs!</h1>
+    </div>
+    <h1><a href="https://www.acciowebsite.com/blog" target="_blank">Accio Job's Blog</a></h1>
+    
+    <!-- Image inclusion -->
+    <img src="https://images.unsplash.com/flagged/photo-1556514767-5c270b96a005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI2fHxvcHRpbWl6YXRpb258ZW58MHx8fHwxNjcxMDAyOTIz&ixlib=rb-4.0.3&q=80&w=2000" alt="A descriptive alt text for the image">
 
+    <!-- Link -->
+    <p><a href="https://www.example.com/brute-force-vs-optimization" target="_blank" rel="noopener noreferrer">Brute Force vs. Optimization</a></p>
+    
+    <!-- Paragraph -->
+    <p>We can say that optimization is...</p>
+
+	
+
+	<!-- Image inclusion -->
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxjb21wZXRpdHZlJTIwcHJvZ3JhbW1pbmd8ZW58MHx8fHwxNjcwOTk4ODU0&ixlib=rb-4.0.3&q=80&w=2000" alt="A descriptive alt text for the image">
+
+    <!-- Link -->
+    <p><a href="https://www.example.com/DSA-vs.-Competitive-Programming" target="_blank" rel="noopener noreferrer">DSA vs. Competitive Programming</a></p>
+    
+    <!-- Paragraph -->
+    <p>Starts with "DSA or Competitive programming?..."</p>
+
+	
+
+	<!-- Image inclusion -->
+    <img src="https://acciojob.com/blog/content/images/size/w2000/2023/02/Screenshot-2023-02-06-at-7.28.31-PM.png" alt="A descriptive alt text for the image">
+
+    <!-- Link -->
+    <p><a href="https://www.example.com/Complete-Guide-on-FlexBox" target="_blank" rel="noopener noreferrer">Complete Guide on FlexBox</a></p>
+    
+    <!-- Paragraph -->
+    <p>	Starts with "As a job seeker, you may wonder..."</p>
 </body>
-
 </html>
